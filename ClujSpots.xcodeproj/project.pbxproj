@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E04ABA12B2A7D0400DC5EE2 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E04ABA02B2A7D0400DC5EE2 /* SearchBar.swift */; };
+		6E04ABA32B2A8BD100DC5EE2 /* SearchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E04ABA22B2A8BD100DC5EE2 /* SearchListView.swift */; };
+		6E04ABA52B2A9E1100DC5EE2 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E04ABA42B2A9E1100DC5EE2 /* MainViewModel.swift */; };
+		6E04ABA92B2BBD4600DC5EE2 /* WifiLocationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E04ABA82B2BBD4600DC5EE2 /* WifiLocationEntity.swift */; };
+		6E04ABAB2B2BC95200DC5EE2 /* OfflineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E04ABAA2B2BC95200DC5EE2 /* OfflineView.swift */; };
+		6E04ABAD2B2BD96400DC5EE2 /* FilterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E04ABAC2B2BD96400DC5EE2 /* FilterCard.swift */; };
+		6E04ABBD2B2BDFAF00DC5EE2 /* ParkingMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E04ABBC2B2BDFAF00DC5EE2 /* ParkingMapper.swift */; };
+		6E04ABBF2B2BE07900DC5EE2 /* BikeStationMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E04ABBE2B2BE07900DC5EE2 /* BikeStationMapper.swift */; };
+		6E04ABC12B2BE0D100DC5EE2 /* WifiLocationMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E04ABC02B2BE0D100DC5EE2 /* WifiLocationMapper.swift */; };
+		6E4CE19D2B2A19FD00EF540E /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4CE19C2B2A19FD00EF540E /* MapViewModel.swift */; };
+		6E4CE19F2B2A230B00EF540E /* MapPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4CE19E2B2A230B00EF540E /* MapPinView.swift */; };
+		6E4CE1A12B2A256B00EF540E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4CE1A02B2A256B00EF540E /* LocationManager.swift */; };
+		6E4CE1A32B2A720D00EF540E /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4CE1A22B2A720D00EF540E /* BottomSheet.swift */; };
+		6E6DD7632B27B723001BB32B /* ClujSpotsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6DD7622B27B723001BB32B /* ClujSpotsApp.swift */; };
+		6E6DD7652B27B723001BB32B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6DD7642B27B723001BB32B /* MapView.swift */; };
+		6E6DD7672B27B726001BB32B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E6DD7662B27B726001BB32B /* Assets.xcassets */; };
+		6E6DD76A2B27B726001BB32B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E6DD7692B27B726001BB32B /* Preview Assets.xcassets */; };
+		6E6DD7742B27B727001BB32B /* ClujSpotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6DD7732B27B727001BB32B /* ClujSpotsTests.swift */; };
+		6E6DD77E2B27B727001BB32B /* ClujSpotsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6DD77D2B27B727001BB32B /* ClujSpotsUITests.swift */; };
+		6E6DD7802B27B727001BB32B /* ClujSpotsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6DD77F2B27B727001BB32B /* ClujSpotsUITestsLaunchTests.swift */; };
+		6ED30A292B27D8EF00D16B8B /* WifiLocationDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED30A282B27D8EF00D16B8B /* WifiLocationDTO.swift */; };
+		6ED30A2B2B27D8FD00D16B8B /* BikeStationDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED30A2A2B27D8FD00D16B8B /* BikeStationDTO.swift */; };
+		6ED30A2D2B27D90C00D16B8B /* ParkingDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED30A2C2B27D90C00D16B8B /* ParkingDTO.swift */; };
+		6ED30A312B28EAC700D16B8B /* UIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED30A302B28EAC700D16B8B /* UIState.swift */; };
+		6ED30A332B28EAD800D16B8B /* WifiLocationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED30A322B28EAD800D16B8B /* WifiLocationState.swift */; };
+		6ED30A352B28EAE400D16B8B /* BikeStationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED30A342B28EAE400D16B8B /* BikeStationState.swift */; };
+		6ED30A372B2904A000D16B8B /* ParkingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED30A362B2904A000D16B8B /* ParkingState.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E6DD7702B27B727001BB32B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E6DD7572B27B723001BB32B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E6DD75E2B27B723001BB32B;
+			remoteInfo = ClujSpots;
+		};
+		6E6DD77A2B27B727001BB32B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E6DD7572B27B723001BB32B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E6DD75E2B27B723001BB32B;
+			remoteInfo = ClujSpots;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E04ABA02B2A7D0400DC5EE2 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		6E04ABA22B2A8BD100DC5EE2 /* SearchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListView.swift; sourceTree = "<group>"; };
+		6E04ABA42B2A9E1100DC5EE2 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		6E04ABA82B2BBD4600DC5EE2 /* WifiLocationEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiLocationEntity.swift; sourceTree = "<group>"; };
+		6E04ABAA2B2BC95200DC5EE2 /* OfflineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineView.swift; sourceTree = "<group>"; };
+		6E04ABAC2B2BD96400DC5EE2 /* FilterCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCard.swift; sourceTree = "<group>"; };
+		6E04ABBC2B2BDFAF00DC5EE2 /* ParkingMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingMapper.swift; sourceTree = "<group>"; };
+		6E04ABBE2B2BE07900DC5EE2 /* BikeStationMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationMapper.swift; sourceTree = "<group>"; };
+		6E04ABC02B2BE0D100DC5EE2 /* WifiLocationMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiLocationMapper.swift; sourceTree = "<group>"; };
+		6E4CE19C2B2A19FD00EF540E /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		6E4CE19E2B2A230B00EF540E /* MapPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPinView.swift; sourceTree = "<group>"; };
+		6E4CE1A02B2A256B00EF540E /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		6E4CE1A22B2A720D00EF540E /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
+		6E6DD75F2B27B723001BB32B /* ClujSpots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClujSpots.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E6DD7622B27B723001BB32B /* ClujSpotsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClujSpotsApp.swift; sourceTree = "<group>"; };
+		6E6DD7642B27B723001BB32B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		6E6DD7662B27B726001BB32B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E6DD7692B27B726001BB32B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E6DD76F2B27B727001BB32B /* ClujSpotsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClujSpotsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E6DD7732B27B727001BB32B /* ClujSpotsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClujSpotsTests.swift; sourceTree = "<group>"; };
+		6E6DD7792B27B727001BB32B /* ClujSpotsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClujSpotsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E6DD77D2B27B727001BB32B /* ClujSpotsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClujSpotsUITests.swift; sourceTree = "<group>"; };
+		6E6DD77F2B27B727001BB32B /* ClujSpotsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClujSpotsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6ED30A282B27D8EF00D16B8B /* WifiLocationDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiLocationDTO.swift; sourceTree = "<group>"; };
+		6ED30A2A2B27D8FD00D16B8B /* BikeStationDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationDTO.swift; sourceTree = "<group>"; };
+		6ED30A2C2B27D90C00D16B8B /* ParkingDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingDTO.swift; sourceTree = "<group>"; };
+		6ED30A302B28EAC700D16B8B /* UIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIState.swift; sourceTree = "<group>"; };
+		6ED30A322B28EAD800D16B8B /* WifiLocationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiLocationState.swift; sourceTree = "<group>"; };
+		6ED30A342B28EAE400D16B8B /* BikeStationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationState.swift; sourceTree = "<group>"; };
+		6ED30A362B2904A000D16B8B /* ParkingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingState.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E6DD75C2B27B723001BB32B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E6DD76C2B27B727001BB32B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E6DD7762B27B727001BB32B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E04ABAE2B2BDC7700DC5EE2 /* offlinePage */ = {
+			isa = PBXGroup;
+			children = (
+				6E04ABAF2B2BDC8700DC5EE2 /* view */,
+			);
+			path = offlinePage;
+			sourceTree = "<group>";
+		};
+		6E04ABAF2B2BDC8700DC5EE2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6E04ABAA2B2BC95200DC5EE2 /* OfflineView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		6E04ABB02B2BDC9200DC5EE2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6E04ABBB2B2BDE0E00DC5EE2 /* components */,
+				6E6DD7642B27B723001BB32B /* MapView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		6E04ABB12B2BDC9500DC5EE2 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6E4CE19C2B2A19FD00EF540E /* MapViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		6E04ABB22B2BDCA000DC5EE2 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				6E04ABB32B2BDCA200DC5EE2 /* model */,
+				6E04ABB92B2BDDA700DC5EE2 /* viewModel */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		6E04ABB32B2BDCA200DC5EE2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				6E04ABB72B2BDCDF00DC5EE2 /* mapper */,
+				6E04ABBA2B2BDDDC00DC5EE2 /* entity */,
+				6E04ABB62B2BDCD000DC5EE2 /* uiState */,
+				6E04ABB42B2BDCA500DC5EE2 /* dto */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6E04ABB42B2BDCA500DC5EE2 /* dto */ = {
+			isa = PBXGroup;
+			children = (
+				6ED30A282B27D8EF00D16B8B /* WifiLocationDTO.swift */,
+				6ED30A2A2B27D8FD00D16B8B /* BikeStationDTO.swift */,
+				6ED30A2C2B27D90C00D16B8B /* ParkingDTO.swift */,
+			);
+			path = dto;
+			sourceTree = "<group>";
+		};
+		6E04ABB62B2BDCD000DC5EE2 /* uiState */ = {
+			isa = PBXGroup;
+			children = (
+				6ED30A302B28EAC700D16B8B /* UIState.swift */,
+				6ED30A322B28EAD800D16B8B /* WifiLocationState.swift */,
+				6ED30A342B28EAE400D16B8B /* BikeStationState.swift */,
+				6ED30A362B2904A000D16B8B /* ParkingState.swift */,
+			);
+			path = uiState;
+			sourceTree = "<group>";
+		};
+		6E04ABB72B2BDCDF00DC5EE2 /* mapper */ = {
+			isa = PBXGroup;
+			children = (
+				6E04ABC02B2BE0D100DC5EE2 /* WifiLocationMapper.swift */,
+				6E04ABBE2B2BE07900DC5EE2 /* BikeStationMapper.swift */,
+				6E04ABBC2B2BDFAF00DC5EE2 /* ParkingMapper.swift */,
+			);
+			path = mapper;
+			sourceTree = "<group>";
+		};
+		6E04ABB82B2BDD0E00DC5EE2 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				6E4CE1A02B2A256B00EF540E /* LocationManager.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		6E04ABB92B2BDDA700DC5EE2 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6E04ABA42B2A9E1100DC5EE2 /* MainViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		6E04ABBA2B2BDDDC00DC5EE2 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				6E04ABA82B2BBD4600DC5EE2 /* WifiLocationEntity.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		6E04ABBB2B2BDE0E00DC5EE2 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				6E4CE19E2B2A230B00EF540E /* MapPinView.swift */,
+				6E4CE1A22B2A720D00EF540E /* BottomSheet.swift */,
+				6E04ABA02B2A7D0400DC5EE2 /* SearchBar.swift */,
+				6E04ABA22B2A8BD100DC5EE2 /* SearchListView.swift */,
+				6E04ABAC2B2BD96400DC5EE2 /* FilterCard.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		6E4CE19B2B2A191E00EF540E /* mapPage */ = {
+			isa = PBXGroup;
+			children = (
+				6E04ABB12B2BDC9500DC5EE2 /* viewModel */,
+				6E04ABB02B2BDC9200DC5EE2 /* view */,
+			);
+			path = mapPage;
+			sourceTree = "<group>";
+		};
+		6E6DD7562B27B723001BB32B = {
+			isa = PBXGroup;
+			children = (
+				6E6DD7612B27B723001BB32B /* ClujSpots */,
+				6E6DD7722B27B727001BB32B /* ClujSpotsTests */,
+				6E6DD77C2B27B727001BB32B /* ClujSpotsUITests */,
+				6E6DD7602B27B723001BB32B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E6DD7602B27B723001BB32B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E6DD75F2B27B723001BB32B /* ClujSpots.app */,
+				6E6DD76F2B27B727001BB32B /* ClujSpotsTests.xctest */,
+				6E6DD7792B27B727001BB32B /* ClujSpotsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E6DD7612B27B723001BB32B /* ClujSpots */ = {
+			isa = PBXGroup;
+			children = (
+				6E04ABB82B2BDD0E00DC5EE2 /* utils */,
+				6E04ABB22B2BDCA000DC5EE2 /* core */,
+				6E04ABAE2B2BDC7700DC5EE2 /* offlinePage */,
+				6E4CE19B2B2A191E00EF540E /* mapPage */,
+				6E6DD7622B27B723001BB32B /* ClujSpotsApp.swift */,
+				6E6DD7662B27B726001BB32B /* Assets.xcassets */,
+				6E6DD7682B27B726001BB32B /* Preview Content */,
+			);
+			path = ClujSpots;
+			sourceTree = "<group>";
+		};
+		6E6DD7682B27B726001BB32B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6E6DD7692B27B726001BB32B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6E6DD7722B27B727001BB32B /* ClujSpotsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E6DD7732B27B727001BB32B /* ClujSpotsTests.swift */,
+			);
+			path = ClujSpotsTests;
+			sourceTree = "<group>";
+		};
+		6E6DD77C2B27B727001BB32B /* ClujSpotsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E6DD77D2B27B727001BB32B /* ClujSpotsUITests.swift */,
+				6E6DD77F2B27B727001BB32B /* ClujSpotsUITestsLaunchTests.swift */,
+			);
+			path = ClujSpotsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E6DD75E2B27B723001BB32B /* ClujSpots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E6DD7832B27B727001BB32B /* Build configuration list for PBXNativeTarget "ClujSpots" */;
+			buildPhases = (
+				6E6DD75B2B27B723001BB32B /* Sources */,
+				6E6DD75C2B27B723001BB32B /* Frameworks */,
+				6E6DD75D2B27B723001BB32B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClujSpots;
+			productName = ClujSpots;
+			productReference = 6E6DD75F2B27B723001BB32B /* ClujSpots.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E6DD76E2B27B727001BB32B /* ClujSpotsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E6DD7862B27B727001BB32B /* Build configuration list for PBXNativeTarget "ClujSpotsTests" */;
+			buildPhases = (
+				6E6DD76B2B27B727001BB32B /* Sources */,
+				6E6DD76C2B27B727001BB32B /* Frameworks */,
+				6E6DD76D2B27B727001BB32B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E6DD7712B27B727001BB32B /* PBXTargetDependency */,
+			);
+			name = ClujSpotsTests;
+			productName = ClujSpotsTests;
+			productReference = 6E6DD76F2B27B727001BB32B /* ClujSpotsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E6DD7782B27B727001BB32B /* ClujSpotsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E6DD7892B27B727001BB32B /* Build configuration list for PBXNativeTarget "ClujSpotsUITests" */;
+			buildPhases = (
+				6E6DD7752B27B727001BB32B /* Sources */,
+				6E6DD7762B27B727001BB32B /* Frameworks */,
+				6E6DD7772B27B727001BB32B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E6DD77B2B27B727001BB32B /* PBXTargetDependency */,
+			);
+			name = ClujSpotsUITests;
+			productName = ClujSpotsUITests;
+			productReference = 6E6DD7792B27B727001BB32B /* ClujSpotsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E6DD7572B27B723001BB32B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					6E6DD75E2B27B723001BB32B = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					6E6DD76E2B27B727001BB32B = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 6E6DD75E2B27B723001BB32B;
+					};
+					6E6DD7782B27B727001BB32B = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 6E6DD75E2B27B723001BB32B;
+					};
+				};
+			};
+			buildConfigurationList = 6E6DD75A2B27B723001BB32B /* Build configuration list for PBXProject "ClujSpots" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E6DD7562B27B723001BB32B;
+			productRefGroup = 6E6DD7602B27B723001BB32B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E6DD75E2B27B723001BB32B /* ClujSpots */,
+				6E6DD76E2B27B727001BB32B /* ClujSpotsTests */,
+				6E6DD7782B27B727001BB32B /* ClujSpotsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E6DD75D2B27B723001BB32B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E6DD76A2B27B726001BB32B /* Preview Assets.xcassets in Resources */,
+				6E6DD7672B27B726001BB32B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E6DD76D2B27B727001BB32B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E6DD7772B27B727001BB32B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E6DD75B2B27B723001BB32B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ED30A292B27D8EF00D16B8B /* WifiLocationDTO.swift in Sources */,
+				6ED30A2B2B27D8FD00D16B8B /* BikeStationDTO.swift in Sources */,
+				6E04ABA92B2BBD4600DC5EE2 /* WifiLocationEntity.swift in Sources */,
+				6E4CE19F2B2A230B00EF540E /* MapPinView.swift in Sources */,
+				6ED30A332B28EAD800D16B8B /* WifiLocationState.swift in Sources */,
+				6E6DD7652B27B723001BB32B /* MapView.swift in Sources */,
+				6ED30A2D2B27D90C00D16B8B /* ParkingDTO.swift in Sources */,
+				6E4CE19D2B2A19FD00EF540E /* MapViewModel.swift in Sources */,
+				6E04ABBF2B2BE07900DC5EE2 /* BikeStationMapper.swift in Sources */,
+				6E04ABA12B2A7D0400DC5EE2 /* SearchBar.swift in Sources */,
+				6E04ABC12B2BE0D100DC5EE2 /* WifiLocationMapper.swift in Sources */,
+				6ED30A312B28EAC700D16B8B /* UIState.swift in Sources */,
+				6E04ABA32B2A8BD100DC5EE2 /* SearchListView.swift in Sources */,
+				6E04ABBD2B2BDFAF00DC5EE2 /* ParkingMapper.swift in Sources */,
+				6E6DD7632B27B723001BB32B /* ClujSpotsApp.swift in Sources */,
+				6E04ABAB2B2BC95200DC5EE2 /* OfflineView.swift in Sources */,
+				6ED30A372B2904A000D16B8B /* ParkingState.swift in Sources */,
+				6ED30A352B28EAE400D16B8B /* BikeStationState.swift in Sources */,
+				6E04ABAD2B2BD96400DC5EE2 /* FilterCard.swift in Sources */,
+				6E4CE1A32B2A720D00EF540E /* BottomSheet.swift in Sources */,
+				6E4CE1A12B2A256B00EF540E /* LocationManager.swift in Sources */,
+				6E04ABA52B2A9E1100DC5EE2 /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E6DD76B2B27B727001BB32B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E6DD7742B27B727001BB32B /* ClujSpotsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E6DD7752B27B727001BB32B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E6DD7802B27B727001BB32B /* ClujSpotsUITestsLaunchTests.swift in Sources */,
+				6E6DD77E2B27B727001BB32B /* ClujSpotsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E6DD7712B27B727001BB32B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E6DD75E2B27B723001BB32B /* ClujSpots */;
+			targetProxy = 6E6DD7702B27B727001BB32B /* PBXContainerItemProxy */;
+		};
+		6E6DD77B2B27B727001BB32B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E6DD75E2B27B723001BB32B /* ClujSpots */;
+			targetProxy = 6E6DD77A2B27B727001BB32B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6E6DD7812B27B727001BB32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E6DD7822B27B727001BB32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E6DD7842B27B727001BB32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ClujSpots/Preview Content\"";
+				DEVELOPMENT_TEAM = FRSSQX7XT5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to display it.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexbir.ClujSpots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E6DD7852B27B727001BB32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ClujSpots/Preview Content\"";
+				DEVELOPMENT_TEAM = FRSSQX7XT5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to display it.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexbir.ClujSpots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E6DD7872B27B727001BB32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKTBAXTZ89;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexbir.ClujSpotsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClujSpots.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClujSpots";
+			};
+			name = Debug;
+		};
+		6E6DD7882B27B727001BB32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKTBAXTZ89;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexbir.ClujSpotsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClujSpots.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClujSpots";
+			};
+			name = Release;
+		};
+		6E6DD78A2B27B727001BB32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKTBAXTZ89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexbir.ClujSpotsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClujSpots;
+			};
+			name = Debug;
+		};
+		6E6DD78B2B27B727001BB32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKTBAXTZ89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexbir.ClujSpotsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClujSpots;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E6DD75A2B27B723001BB32B /* Build configuration list for PBXProject "ClujSpots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E6DD7812B27B727001BB32B /* Debug */,
+				6E6DD7822B27B727001BB32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E6DD7832B27B727001BB32B /* Build configuration list for PBXNativeTarget "ClujSpots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E6DD7842B27B727001BB32B /* Debug */,
+				6E6DD7852B27B727001BB32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E6DD7862B27B727001BB32B /* Build configuration list for PBXNativeTarget "ClujSpotsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E6DD7872B27B727001BB32B /* Debug */,
+				6E6DD7882B27B727001BB32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E6DD7892B27B727001BB32B /* Build configuration list for PBXNativeTarget "ClujSpotsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E6DD78A2B27B727001BB32B /* Debug */,
+				6E6DD78B2B27B727001BB32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E6DD7572B27B723001BB32B /* Project object */;
+}
