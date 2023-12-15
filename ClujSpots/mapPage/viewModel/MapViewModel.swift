@@ -88,12 +88,12 @@ extension MapViewModel {
             .map { dtoArray in
                 dtoArray.map{WifiLocationMapper.dtoToUiState($0)}.compactMap{$0} as [UIState]
             }
-//        let bikesPublisher = fetchData(from: Url.bikes.rawValue, responseType: [BikeStationDTO].self)
-//            .map { dtoArray in
-//                dtoArray.map{BikeStationMapper.dtoToUiState($0)}.compactMap{$0} as [UIState]
-//            }
+        let bikesPublisher = fetchData(from: Url.bikes.rawValue, responseType: [BikeStationDTO].self)
+            .map { dtoArray in
+                dtoArray.map{BikeStationMapper.dtoToUiState($0)}.compactMap{$0} as [UIState]
+            }
         Publishers.Merge(wifisPublisher, parkingsPublisher)
-//            .merge(with: bikesPublisher)
+            .merge(with: bikesPublisher)
             .receive(on: DispatchQueue.main)
             .sink { _ in} receiveValue: { [weak self] response in
                 let currentArray = self?.unfilteredUiStates ?? []
