@@ -7,6 +7,7 @@
 
 import SwiftUI
 import CoreLocation
+import MapViewComponents
 
 struct WifiSheet: View {
     
@@ -22,7 +23,7 @@ struct WifiSheet: View {
                 .font(.system(size: 20))
             HStack {
                 Spacer()
-                GoogleMapsLink(state: state)
+                GoogleMapsLink(lat: state.lat, lon: state.lon)
                 Spacer()
             }
             .padding(.top)
@@ -53,7 +54,7 @@ struct BikeStationSheet: View {
                 .foregroundStyle(Color(.systemGray))
             HStack {
                 Spacer()
-                GoogleMapsLink(state: state)
+                GoogleMapsLink(lat: state.lat, lon: state.lon)
                 Spacer()
             }
             .padding(.top)
@@ -87,32 +88,8 @@ struct ParkingSheet: View {
                     Text(" available spaces out of \(state.capacity)")
                 }
             }
-            GoogleMapsLink(state: state)
+            GoogleMapsLink(lat: state.lat, lon: state.lon)
                 .padding(.top)
-        }
-    }
-}
-
-struct GoogleMapsLink: View {
-    let state: UIState
-    
-    var body: some View {
-        if let url = URL(string: "comgooglemaps://?saddr=&daddr=\(state.lat),\(state.lon)&directionsmode=driving") {
-            Link(destination: url, label: {
-                HStack {
-                    Image(systemName: "arrowtriangle.up.fill")
-                        .foregroundStyle(.white)
-                    Text("Start")
-                        .foregroundStyle(.white)
-                }
-                .padding(8)
-                .padding(.horizontal, 8)
-                .clipShape(RoundedRectangle(cornerSize: CGSize(width: 10, height: 10)))
-                .background(
-                    RoundedRectangle(cornerRadius: 10)
-                        .fill(Color(.systemBlue))
-                )
-            })
         }
     }
 }

@@ -8,6 +8,7 @@
 import SwiftUI
 import MapKit
 import SwiftData
+import MapViewComponents
 
 struct MapView: View {
     
@@ -82,14 +83,26 @@ extension MapView {
                 userTrackingMode: $userTrackingMode,
                 annotationItems: vm.uiStates) { uiState in
                     MapAnnotation(coordinate: CLLocationCoordinate2D(latitude: uiState.lat, longitude: uiState.lon)) {
-                        MapPinView(
-                            isSelected: Binding(get: {
-                                vm.selectedState == uiState
-                            }, set: { newValue in
-                                
-                            }),
-                            uiState: uiState
-                        )
+                        let pinImage = switch uiState {
+                        case is WifiLocationState:
+                            "wifi"
+                        case is BikeStationState:
+                            "bicycle"
+                        default:
+                            "car.side"
+                        }
+                        let pinColor = switch uiState {
+                        case is WifiLocationState:
+                            Color(uiColor: .systemBlue)
+                        case is BikeStationState:
+                            Color(uiColor: .systemGreen)
+                        default:
+                            Color(uiColor: .systemOrange)
+                        }
+                        MapPin(
+                            isSelected: vm.selectedState == uiState,
+                            imageName: pinImage,
+                            backgroundColor: pinColor)
                         .onTapGesture {
                             withAnimation(.easeInOut) {
                                 if (vm.selectedState == uiState) {

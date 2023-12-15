@@ -7,23 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E04ABA12B2A7D0400DC5EE2 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E04ABA02B2A7D0400DC5EE2 /* SearchBar.swift */; };
 		6E04ABA32B2A8BD100DC5EE2 /* SearchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E04ABA22B2A8BD100DC5EE2 /* SearchListView.swift */; };
 		6E04ABA52B2A9E1100DC5EE2 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E04ABA42B2A9E1100DC5EE2 /* MainViewModel.swift */; };
 		6E04ABA92B2BBD4600DC5EE2 /* WifiLocationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E04ABA82B2BBD4600DC5EE2 /* WifiLocationEntity.swift */; };
 		6E04ABAB2B2BC95200DC5EE2 /* OfflineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E04ABAA2B2BC95200DC5EE2 /* OfflineView.swift */; };
-		6E04ABAD2B2BD96400DC5EE2 /* FilterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E04ABAC2B2BD96400DC5EE2 /* FilterCard.swift */; };
 		6E04ABBD2B2BDFAF00DC5EE2 /* ParkingMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E04ABBC2B2BDFAF00DC5EE2 /* ParkingMapper.swift */; };
 		6E04ABBF2B2BE07900DC5EE2 /* BikeStationMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E04ABBE2B2BE07900DC5EE2 /* BikeStationMapper.swift */; };
 		6E04ABC12B2BE0D100DC5EE2 /* WifiLocationMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E04ABC02B2BE0D100DC5EE2 /* WifiLocationMapper.swift */; };
 		6E4CE19D2B2A19FD00EF540E /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4CE19C2B2A19FD00EF540E /* MapViewModel.swift */; };
-		6E4CE19F2B2A230B00EF540E /* MapPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4CE19E2B2A230B00EF540E /* MapPinView.swift */; };
 		6E4CE1A12B2A256B00EF540E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4CE1A02B2A256B00EF540E /* LocationManager.swift */; };
 		6E4CE1A32B2A720D00EF540E /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4CE1A22B2A720D00EF540E /* BottomSheet.swift */; };
 		6E6DD7632B27B723001BB32B /* ClujSpotsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6DD7622B27B723001BB32B /* ClujSpotsApp.swift */; };
 		6E6DD7652B27B723001BB32B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6DD7642B27B723001BB32B /* MapView.swift */; };
 		6E6DD7672B27B726001BB32B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E6DD7662B27B726001BB32B /* Assets.xcassets */; };
 		6E6DD76A2B27B726001BB32B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E6DD7692B27B726001BB32B /* Preview Assets.xcassets */; };
+		6EBBE3AF2B2C3EA900AF81FE /* MapViewComponents in Frameworks */ = {isa = PBXBuildFile; productRef = 6EBBE3AE2B2C3EA900AF81FE /* MapViewComponents */; };
 		6ED30A292B27D8EF00D16B8B /* WifiLocationDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED30A282B27D8EF00D16B8B /* WifiLocationDTO.swift */; };
 		6ED30A2B2B27D8FD00D16B8B /* BikeStationDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED30A2A2B27D8FD00D16B8B /* BikeStationDTO.swift */; };
 		6ED30A2D2B27D90C00D16B8B /* ParkingDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED30A2C2B27D90C00D16B8B /* ParkingDTO.swift */; };
@@ -51,17 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6E04ABA02B2A7D0400DC5EE2 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		6E04ABA22B2A8BD100DC5EE2 /* SearchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListView.swift; sourceTree = "<group>"; };
 		6E04ABA42B2A9E1100DC5EE2 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		6E04ABA82B2BBD4600DC5EE2 /* WifiLocationEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiLocationEntity.swift; sourceTree = "<group>"; };
 		6E04ABAA2B2BC95200DC5EE2 /* OfflineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineView.swift; sourceTree = "<group>"; };
-		6E04ABAC2B2BD96400DC5EE2 /* FilterCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCard.swift; sourceTree = "<group>"; };
 		6E04ABBC2B2BDFAF00DC5EE2 /* ParkingMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingMapper.swift; sourceTree = "<group>"; };
 		6E04ABBE2B2BE07900DC5EE2 /* BikeStationMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationMapper.swift; sourceTree = "<group>"; };
 		6E04ABC02B2BE0D100DC5EE2 /* WifiLocationMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiLocationMapper.swift; sourceTree = "<group>"; };
 		6E4CE19C2B2A19FD00EF540E /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
-		6E4CE19E2B2A230B00EF540E /* MapPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPinView.swift; sourceTree = "<group>"; };
 		6E4CE1A02B2A256B00EF540E /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		6E4CE1A22B2A720D00EF540E /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
 		6E6DD75F2B27B723001BB32B /* ClujSpots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClujSpots.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +66,7 @@
 		6E6DD7692B27B726001BB32B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6E6DD76F2B27B727001BB32B /* ClujSpotsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClujSpotsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E6DD7792B27B727001BB32B /* ClujSpotsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClujSpotsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBBE3AC2B2C3E3E00AF81FE /* MapViewComponents */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = MapViewComponents; sourceTree = "<group>"; };
 		6ED30A282B27D8EF00D16B8B /* WifiLocationDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiLocationDTO.swift; sourceTree = "<group>"; };
 		6ED30A2A2B27D8FD00D16B8B /* BikeStationDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationDTO.swift; sourceTree = "<group>"; };
 		6ED30A2C2B27D90C00D16B8B /* ParkingDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingDTO.swift; sourceTree = "<group>"; };
@@ -85,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EBBE3AF2B2C3EA900AF81FE /* MapViewComponents in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,12 +102,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6E04ABAE2B2BDC7700DC5EE2 /* offlinePage */ = {
+		6E04ABAE2B2BDC7700DC5EE2 /* offline */ = {
 			isa = PBXGroup;
 			children = (
 				6E04ABAF2B2BDC8700DC5EE2 /* view */,
 			);
-			path = offlinePage;
+			path = offline;
 			sourceTree = "<group>";
 		};
 		6E04ABAF2B2BDC8700DC5EE2 /* view */ = {
@@ -216,29 +213,28 @@
 		6E04ABBB2B2BDE0E00DC5EE2 /* components */ = {
 			isa = PBXGroup;
 			children = (
-				6E4CE19E2B2A230B00EF540E /* MapPinView.swift */,
 				6E4CE1A22B2A720D00EF540E /* BottomSheet.swift */,
-				6E04ABA02B2A7D0400DC5EE2 /* SearchBar.swift */,
 				6E04ABA22B2A8BD100DC5EE2 /* SearchListView.swift */,
-				6E04ABAC2B2BD96400DC5EE2 /* FilterCard.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
 		};
-		6E4CE19B2B2A191E00EF540E /* mapPage */ = {
+		6E4CE19B2B2A191E00EF540E /* map */ = {
 			isa = PBXGroup;
 			children = (
 				6E04ABB12B2BDC9500DC5EE2 /* viewModel */,
 				6E04ABB02B2BDC9200DC5EE2 /* view */,
 			);
-			path = mapPage;
+			path = map;
 			sourceTree = "<group>";
 		};
 		6E6DD7562B27B723001BB32B = {
 			isa = PBXGroup;
 			children = (
+				6EBBE3AC2B2C3E3E00AF81FE /* MapViewComponents */,
 				6E6DD7612B27B723001BB32B /* ClujSpots */,
 				6E6DD7602B27B723001BB32B /* Products */,
+				6EBBE3AD2B2C3EA900AF81FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -257,8 +253,8 @@
 			children = (
 				6E04ABB82B2BDD0E00DC5EE2 /* utils */,
 				6E04ABB22B2BDCA000DC5EE2 /* core */,
-				6E04ABAE2B2BDC7700DC5EE2 /* offlinePage */,
-				6E4CE19B2B2A191E00EF540E /* mapPage */,
+				6E04ABAE2B2BDC7700DC5EE2 /* offline */,
+				6E4CE19B2B2A191E00EF540E /* map */,
 				6E6DD7622B27B723001BB32B /* ClujSpotsApp.swift */,
 				6E6DD7662B27B726001BB32B /* Assets.xcassets */,
 				6E6DD7682B27B726001BB32B /* Preview Content */,
@@ -272,6 +268,13 @@
 				6E6DD7692B27B726001BB32B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6EBBE3AD2B2C3EA900AF81FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +293,9 @@
 			dependencies = (
 			);
 			name = ClujSpots;
+			packageProductDependencies = (
+				6EBBE3AE2B2C3EA900AF81FE /* MapViewComponents */,
+			);
 			productName = ClujSpots;
 			productReference = 6E6DD75F2B27B723001BB32B /* ClujSpots.app */;
 			productType = "com.apple.product-type.application";
@@ -407,13 +413,11 @@
 				6ED30A292B27D8EF00D16B8B /* WifiLocationDTO.swift in Sources */,
 				6ED30A2B2B27D8FD00D16B8B /* BikeStationDTO.swift in Sources */,
 				6E04ABA92B2BBD4600DC5EE2 /* WifiLocationEntity.swift in Sources */,
-				6E4CE19F2B2A230B00EF540E /* MapPinView.swift in Sources */,
 				6ED30A332B28EAD800D16B8B /* WifiLocationState.swift in Sources */,
 				6E6DD7652B27B723001BB32B /* MapView.swift in Sources */,
 				6ED30A2D2B27D90C00D16B8B /* ParkingDTO.swift in Sources */,
 				6E4CE19D2B2A19FD00EF540E /* MapViewModel.swift in Sources */,
 				6E04ABBF2B2BE07900DC5EE2 /* BikeStationMapper.swift in Sources */,
-				6E04ABA12B2A7D0400DC5EE2 /* SearchBar.swift in Sources */,
 				6E04ABC12B2BE0D100DC5EE2 /* WifiLocationMapper.swift in Sources */,
 				6ED30A312B28EAC700D16B8B /* UIState.swift in Sources */,
 				6E04ABA32B2A8BD100DC5EE2 /* SearchListView.swift in Sources */,
@@ -422,7 +426,6 @@
 				6E04ABAB2B2BC95200DC5EE2 /* OfflineView.swift in Sources */,
 				6ED30A372B2904A000D16B8B /* ParkingState.swift in Sources */,
 				6ED30A352B28EAE400D16B8B /* BikeStationState.swift in Sources */,
-				6E04ABAD2B2BD96400DC5EE2 /* FilterCard.swift in Sources */,
 				6E4CE1A32B2A720D00EF540E /* BottomSheet.swift in Sources */,
 				6E4CE1A12B2A256B00EF540E /* LocationManager.swift in Sources */,
 				6E04ABA52B2A9E1100DC5EE2 /* MainViewModel.swift in Sources */,
@@ -754,6 +757,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6EBBE3AE2B2C3EA900AF81FE /* MapViewComponents */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MapViewComponents;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6E6DD7572B27B723001BB32B /* Project object */;
 }
