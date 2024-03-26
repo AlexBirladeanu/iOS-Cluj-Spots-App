@@ -17,6 +17,11 @@ struct MapView: View {
     @ObservedObject var vm: MapViewModel
     @State var userTrackingMode = MapUserTrackingMode.follow
     
+    init(vm: MapViewModel) {
+        self.vm = vm
+        vm.getRemoteData { _ in }
+    }
+    
     var body: some View {
         NavigationStack {
             ZStack {
@@ -145,5 +150,5 @@ extension MapView {
 }
 
 #Preview {
-    MapView(vm: MapViewModel())
+    MapView(vm: MapViewModel(networkServiceProtocol: NetworkService()))
 }

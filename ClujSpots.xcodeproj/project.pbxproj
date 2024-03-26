@@ -29,17 +29,13 @@
 		6ED30A332B28EAD800D16B8B /* WifiLocationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED30A322B28EAD800D16B8B /* WifiLocationState.swift */; };
 		6ED30A352B28EAE400D16B8B /* BikeStationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED30A342B28EAE400D16B8B /* BikeStationState.swift */; };
 		6ED30A372B2904A000D16B8B /* ParkingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED30A362B2904A000D16B8B /* ParkingState.swift */; };
+		8C7DB0002BB313F50046B63D /* ClujSpotsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7DAFFF2BB313F50046B63D /* ClujSpotsUnitTests.swift */; };
+		8C7DB0082BB319ED0046B63D /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7DB0072BB319ED0046B63D /* NetworkService.swift */; };
+		8C7DB00A2BB319FF0046B63D /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7DB0092BB319FF0046B63D /* NetworkServiceProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6E6DD7702B27B727001BB32B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E6DD7572B27B723001BB32B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6E6DD75E2B27B723001BB32B;
-			remoteInfo = ClujSpots;
-		};
-		6E6DD77A2B27B727001BB32B /* PBXContainerItemProxy */ = {
+		8C7DB0012BB313F50046B63D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6E6DD7572B27B723001BB32B /* Project object */;
 			proxyType = 1;
@@ -64,8 +60,6 @@
 		6E6DD7642B27B723001BB32B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		6E6DD7662B27B726001BB32B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E6DD7692B27B726001BB32B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6E6DD76F2B27B727001BB32B /* ClujSpotsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClujSpotsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E6DD7792B27B727001BB32B /* ClujSpotsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClujSpotsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EBBE3AC2B2C3E3E00AF81FE /* MapViewComponents */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = MapViewComponents; sourceTree = "<group>"; };
 		6ED30A282B27D8EF00D16B8B /* WifiLocationDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiLocationDTO.swift; sourceTree = "<group>"; };
 		6ED30A2A2B27D8FD00D16B8B /* BikeStationDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationDTO.swift; sourceTree = "<group>"; };
@@ -74,6 +68,10 @@
 		6ED30A322B28EAD800D16B8B /* WifiLocationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiLocationState.swift; sourceTree = "<group>"; };
 		6ED30A342B28EAE400D16B8B /* BikeStationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationState.swift; sourceTree = "<group>"; };
 		6ED30A362B2904A000D16B8B /* ParkingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingState.swift; sourceTree = "<group>"; };
+		8C7DAFFD2BB313F50046B63D /* ClujSpotsUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClujSpotsUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7DAFFF2BB313F50046B63D /* ClujSpotsUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClujSpotsUnitTests.swift; sourceTree = "<group>"; };
+		8C7DB0072BB319ED0046B63D /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		8C7DB0092BB319FF0046B63D /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,14 +83,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E6DD76C2B27B727001BB32B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6E6DD7762B27B727001BB32B /* Frameworks */ = {
+		8C7DAFFA2BB313F50046B63D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -222,6 +213,7 @@
 		6E4CE19B2B2A191E00EF540E /* map */ = {
 			isa = PBXGroup;
 			children = (
+				8C7DB0062BB319E20046B63D /* service */,
 				6E04ABB12B2BDC9500DC5EE2 /* viewModel */,
 				6E04ABB02B2BDC9200DC5EE2 /* view */,
 			);
@@ -233,6 +225,7 @@
 			children = (
 				6EBBE3AC2B2C3E3E00AF81FE /* MapViewComponents */,
 				6E6DD7612B27B723001BB32B /* ClujSpots */,
+				8C7DAFFE2BB313F50046B63D /* ClujSpotsUnitTests */,
 				6E6DD7602B27B723001BB32B /* Products */,
 				6EBBE3AD2B2C3EA900AF81FE /* Frameworks */,
 			);
@@ -242,8 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				6E6DD75F2B27B723001BB32B /* ClujSpots.app */,
-				6E6DD76F2B27B727001BB32B /* ClujSpotsTests.xctest */,
-				6E6DD7792B27B727001BB32B /* ClujSpotsUITests.xctest */,
+				8C7DAFFD2BB313F50046B63D /* ClujSpotsUnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -277,6 +269,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8C7DAFFE2BB313F50046B63D /* ClujSpotsUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C7DAFFF2BB313F50046B63D /* ClujSpotsUnitTests.swift */,
+			);
+			path = ClujSpotsUnitTests;
+			sourceTree = "<group>";
+		};
+		8C7DB0062BB319E20046B63D /* service */ = {
+			isa = PBXGroup;
+			children = (
+				8C7DB0072BB319ED0046B63D /* NetworkService.swift */,
+				8C7DB0092BB319FF0046B63D /* NetworkServiceProtocol.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -300,41 +309,23 @@
 			productReference = 6E6DD75F2B27B723001BB32B /* ClujSpots.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6E6DD76E2B27B727001BB32B /* ClujSpotsTests */ = {
+		8C7DAFFC2BB313F50046B63D /* ClujSpotsUnitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E6DD7862B27B727001BB32B /* Build configuration list for PBXNativeTarget "ClujSpotsTests" */;
+			buildConfigurationList = 8C7DB0032BB313F50046B63D /* Build configuration list for PBXNativeTarget "ClujSpotsUnitTests" */;
 			buildPhases = (
-				6E6DD76B2B27B727001BB32B /* Sources */,
-				6E6DD76C2B27B727001BB32B /* Frameworks */,
-				6E6DD76D2B27B727001BB32B /* Resources */,
+				8C7DAFF92BB313F50046B63D /* Sources */,
+				8C7DAFFA2BB313F50046B63D /* Frameworks */,
+				8C7DAFFB2BB313F50046B63D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6E6DD7712B27B727001BB32B /* PBXTargetDependency */,
+				8C7DB0022BB313F50046B63D /* PBXTargetDependency */,
 			);
-			name = ClujSpotsTests;
-			productName = ClujSpotsTests;
-			productReference = 6E6DD76F2B27B727001BB32B /* ClujSpotsTests.xctest */;
+			name = ClujSpotsUnitTests;
+			productName = ClujSpotsUnitTests;
+			productReference = 8C7DAFFD2BB313F50046B63D /* ClujSpotsUnitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		6E6DD7782B27B727001BB32B /* ClujSpotsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6E6DD7892B27B727001BB32B /* Build configuration list for PBXNativeTarget "ClujSpotsUITests" */;
-			buildPhases = (
-				6E6DD7752B27B727001BB32B /* Sources */,
-				6E6DD7762B27B727001BB32B /* Frameworks */,
-				6E6DD7772B27B727001BB32B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6E6DD77B2B27B727001BB32B /* PBXTargetDependency */,
-			);
-			name = ClujSpotsUITests;
-			productName = ClujSpotsUITests;
-			productReference = 6E6DD7792B27B727001BB32B /* ClujSpotsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -343,18 +334,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
+				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					6E6DD75E2B27B723001BB32B = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
-					6E6DD76E2B27B727001BB32B = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 6E6DD75E2B27B723001BB32B;
-					};
-					6E6DD7782B27B727001BB32B = {
-						CreatedOnToolsVersion = 15.0.1;
+					8C7DAFFC2BB313F50046B63D = {
+						CreatedOnToolsVersion = 15.3;
 						TestTargetID = 6E6DD75E2B27B723001BB32B;
 					};
 				};
@@ -373,8 +360,7 @@
 			projectRoot = "";
 			targets = (
 				6E6DD75E2B27B723001BB32B /* ClujSpots */,
-				6E6DD76E2B27B727001BB32B /* ClujSpotsTests */,
-				6E6DD7782B27B727001BB32B /* ClujSpotsUITests */,
+				8C7DAFFC2BB313F50046B63D /* ClujSpotsUnitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -389,14 +375,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E6DD76D2B27B727001BB32B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6E6DD7772B27B727001BB32B /* Resources */ = {
+		8C7DAFFB2BB313F50046B63D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -420,44 +399,35 @@
 				6E04ABBF2B2BE07900DC5EE2 /* BikeStationMapper.swift in Sources */,
 				6E04ABC12B2BE0D100DC5EE2 /* WifiLocationMapper.swift in Sources */,
 				6ED30A312B28EAC700D16B8B /* UIState.swift in Sources */,
+				8C7DB0082BB319ED0046B63D /* NetworkService.swift in Sources */,
 				6E04ABA32B2A8BD100DC5EE2 /* SearchListView.swift in Sources */,
 				6E04ABBD2B2BDFAF00DC5EE2 /* ParkingMapper.swift in Sources */,
 				6E6DD7632B27B723001BB32B /* ClujSpotsApp.swift in Sources */,
 				6E04ABAB2B2BC95200DC5EE2 /* OfflineView.swift in Sources */,
 				6ED30A372B2904A000D16B8B /* ParkingState.swift in Sources */,
 				6ED30A352B28EAE400D16B8B /* BikeStationState.swift in Sources */,
+				8C7DB00A2BB319FF0046B63D /* NetworkServiceProtocol.swift in Sources */,
 				6E4CE1A32B2A720D00EF540E /* BottomSheet.swift in Sources */,
 				6E4CE1A12B2A256B00EF540E /* LocationManager.swift in Sources */,
 				6E04ABA52B2A9E1100DC5EE2 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E6DD76B2B27B727001BB32B /* Sources */ = {
+		8C7DAFF92BB313F50046B63D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6E6DD7752B27B727001BB32B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				8C7DB0002BB313F50046B63D /* ClujSpotsUnitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6E6DD7712B27B727001BB32B /* PBXTargetDependency */ = {
+		8C7DB0022BB313F50046B63D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6E6DD75E2B27B723001BB32B /* ClujSpots */;
-			targetProxy = 6E6DD7702B27B727001BB32B /* PBXContainerItemProxy */;
-		};
-		6E6DD77B2B27B727001BB32B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6E6DD75E2B27B723001BB32B /* ClujSpots */;
-			targetProxy = 6E6DD77A2B27B727001BB32B /* PBXContainerItemProxy */;
+			targetProxy = 8C7DB0012BB313F50046B63D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -589,7 +559,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ClujSpots/Preview Content\"";
-				DEVELOPMENT_TEAM = FRSSQX7XT5;
+				DEVELOPMENT_TEAM = UKTBAXTZ89;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to display it.";
@@ -598,6 +568,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -619,7 +590,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ClujSpots/Preview Content\"";
-				DEVELOPMENT_TEAM = FRSSQX7XT5;
+				DEVELOPMENT_TEAM = UKTBAXTZ89;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to display it.";
@@ -628,6 +599,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -641,18 +613,17 @@
 			};
 			name = Release;
 		};
-		6E6DD7872B27B727001BB32B /* Debug */ = {
+		8C7DB0042BB313F50046B63D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UKTBAXTZ89;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexbir.ClujSpotsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devourapps.cususunjos.ClujSpotsUnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -661,59 +632,22 @@
 			};
 			name = Debug;
 		};
-		6E6DD7882B27B727001BB32B /* Release */ = {
+		8C7DB0052BB313F50046B63D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UKTBAXTZ89;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexbir.ClujSpotsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devourapps.cususunjos.ClujSpotsUnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClujSpots.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClujSpots";
-			};
-			name = Release;
-		};
-		6E6DD78A2B27B727001BB32B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UKTBAXTZ89;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexbir.ClujSpotsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ClujSpots;
-			};
-			name = Debug;
-		};
-		6E6DD78B2B27B727001BB32B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UKTBAXTZ89;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexbir.ClujSpotsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ClujSpots;
 			};
 			name = Release;
 		};
@@ -738,20 +672,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E6DD7862B27B727001BB32B /* Build configuration list for PBXNativeTarget "ClujSpotsTests" */ = {
+		8C7DB0032BB313F50046B63D /* Build configuration list for PBXNativeTarget "ClujSpotsUnitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6E6DD7872B27B727001BB32B /* Debug */,
-				6E6DD7882B27B727001BB32B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6E6DD7892B27B727001BB32B /* Build configuration list for PBXNativeTarget "ClujSpotsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6E6DD78A2B27B727001BB32B /* Debug */,
-				6E6DD78B2B27B727001BB32B /* Release */,
+				8C7DB0042BB313F50046B63D /* Debug */,
+				8C7DB0052BB313F50046B63D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

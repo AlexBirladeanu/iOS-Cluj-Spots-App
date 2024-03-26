@@ -16,7 +16,7 @@ struct ClujSpotsApp: App {
     var body: some Scene {
         WindowGroup {
             let locationManager = LocationManager()
-            let mapVM = MapViewModel()
+            let mapVM = MapViewModel(networkServiceProtocol: NetworkService())
             if vm.hasInternetConnection {
                 MapView(vm: mapVM)
                     .onAppear {
